@@ -1,0 +1,25 @@
+<information>
+	
+		<info>
+		<ID>1</ID>
+		<NAME>john_Doe</NAME>
+		<ADDRESS>H#38,R#3,Banani,Dhaka</ADDRESS>
+		<DEPARTMENT>Sales</DEPARTMENT>
+		<SALARY>20000</SALARY>
+	</info>
+		<info >
+		<ID>2</ID>
+		<NAME>Mark_Zuckerberg </NAME>
+		<ADDRESS>Flat#A/1,H#20,R#18,Mirpur,Dhaka</ADDRESS>
+		<DEPARTMENT>Account</DEPARTMENT>
+		<SALARY>12000</SALARY>
+	</info>
+		<info>
+		<ID>3</ID>
+		<NAME>Ala_Voski</NAME>
+		<ADDRESS>H#38,R#3,Motijheel</ADDRESS>
+		<DEPARTMENT>Human_Resource</DEPARTMENT>
+		<SALARY>30000</SALARY>
+	</info>
+
+</information>
