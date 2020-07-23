@@ -5,7 +5,7 @@
 <body>
   <h2>name </h2>
    <form method="post" action="" name="form">
-   <input type="text" name="himi"> <br>
+   <input type="text" name="sadman"> <br>
    <input type="submit" name="" value="submit">
      
    </form>
@@ -14,7 +14,7 @@ $name="";
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
        
-     $name=$_POST["himi"];
+     $name=$_POST["sadman"];
      if(strlen($name)<1 || $name=="")
      {
         echo "textfield must be filled";
