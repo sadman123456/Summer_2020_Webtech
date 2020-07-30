@@ -49,31 +49,15 @@
 <head>
     <title>change password</title>
     <style>
-        /* Chrome, Safari, Edge, Opera */
-        input::-webkit-outer-spin-button,
-        input::-webkit-inner-spin-button {
-          -webkit-appearance: none;
-          margin: 0;
-        }
 
-        /* Firefox */
-        input[type=number] {
-          -moz-appearance: textfield;
-        }
-
-        strong {
-            color: red;
-        }
-
-        em {
-            color: green;
-        }
-    </style>
 </head>
 
 <body>
     <table width="1000px" border="1" cellpadding="0" cellspacing="0" align="center">
         <tr height="50px">
+        <td colspan="3" align="Left">
+            <h1>Xcompany</h1>
+          </td>
             <td colspan="2" align="right">
                 <p style="display: inline-block;">Logged in as <?php echo $_COOKIE['name']; ?></p>
                 <a href="logout.php">Logout</a>
