@@ -37,7 +37,7 @@
     $result = mysqli_query($conn, $user_check);
 
     while($row = mysqli_fetch_assoc($result)){
-      $exist_email == $row['email'];
+      $exist_email = $row['email'];
     }
 
     if($exist_email == $email){
@@ -51,8 +51,13 @@
               VALUES ('$name', '$gender', '$phone', '$email', '$dob', '$blood', '$address', '$u__hash_pass');";
       mysqli_query($conn, $sql);
       $success = "Register Successfull";
+
+header('location: Login.php');
       }
+
+
   }
+    
 ?>
 
 
@@ -102,19 +107,9 @@
               </tr>
               <tr>
                 <td><label >Blood Group:</label></td>
-                  <td>
-                <select name="user_blood" value="<?php  echo $blood;?>" required>
-                <option value="">Select Blood Group</option>
-                <option <?php if($blood=="A+") echo "selected" ?> value="A+">A+</option>
-                <option <?php if($blood=="A-") echo "selected" ?> value="A-">A-</option>
-                <option <?php if($blood=="B+") echo "selected" ?> value="B+">B+</option>
-                <option <?php if($blood=="B-") echo "selected" ?> value="B-">B-</option>
-                <option <?php if($blood=="O+") echo "selected" ?> value="O+">O+</option>
-                <option <?php if($blood=="O-") echo "selected" ?> value="O-">O-</option>
-              </select></td>
 
-</tr>
-
+                <td> <input  type="text" name="user_blood" value="<?php echo $blood; ?>" required> </td>
+              </tr>
               <tr>
                 <td><label >Date of Birth:</label></td>
 
@@ -140,7 +135,7 @@
 
           </form>
         </div>
-        <div align="center"><a href="login.php" ><p>Already a member? Click here.</p></a></div>
+        <div align="center"><a href="Login.php" ><p>Already a member? Click here.</p></a></div>
     </div>
   </body>
 </html>

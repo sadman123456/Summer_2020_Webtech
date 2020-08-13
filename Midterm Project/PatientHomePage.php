@@ -20,7 +20,11 @@
 
 			<a href="PatientPrescription.php">Prescription</a>
 
-			<a href="DoctorList.php">DoctorList</a>
+			<a href="DoctorList.php">Doctor</a>
+
+			<a href="ClinicList.php">Clinic</a>
+
+			<a href="Complain.php">Complain</a>
 
 		</div>
 	</body>

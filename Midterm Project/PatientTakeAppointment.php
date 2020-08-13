@@ -1,4 +1,5 @@
 
+
 <html>
 	<head>
 		<title>
@@ -17,7 +18,7 @@
 		<!--search by name-->
 		<div class="search">
 			<div class="input-group mb-3">
-				<input type="text" class="form-control" placeholder="search doctor name..." id="search_input_name" onkeyup="search_name()">
+				<input type="text"  placeholder="search doctor name..." id="search_input_name" onkeyup="search_name()">
 				<td><button name="search"class="submit">search</button></td>
 			</div>
 		</div>
@@ -43,10 +44,10 @@
 			    </tr>
 			    			    <tr>
 		<td>01</td>	    			    	
-   <td>John</td>
+   <td>Johney</td>
     
     <td>shurjo clinic</td>
-    <td>9pm</td>
+    <td>9pm to 11pm </td>
     <td>27/12/20</td>
     <td><button name="Send Request"class="submit">Send Request</button></td>
    
@@ -58,8 +59,8 @@
     
     <td>apu clinic</td>
     <td>8pm to 10 pm</td>
-    <td>Thusday,Frriday</td>
-
+    <td>27/12/20</td>
+    <td><button name="Send Request"class="submit">Send Request</button></td>
    
 
 			    </tr>
@@ -68,9 +69,9 @@
    <td>manik</td>
     
     <td>aiub clinic</td>
-    <td>7pm to 9pm</td>
-    <td>Friday</td>
-    
+    <td>7pm to 10 pam </td>
+    <td>26/10/20</td>
+    <td><button name="Send Request"class="submit">Send Request</button></td>
    
 
 			    </tr>

@@ -28,7 +28,7 @@
 					<th scope="col">Notification</th>
 			    </tr>
 			    <tr>
-   <td>John</td>
+   <td>Johney</td>
     
     <td>shurjo clinic</td>
     <td>9pm</td>
@@ -51,7 +51,7 @@
     <td>kbc clinic</td>
     <td>7pm</td>
     <td>27/06/20</td>
-    <td>Have Appoinment</td>
+    <td>Pending Appoinment</td>
 
 			    </tr>
 			  </thead>
