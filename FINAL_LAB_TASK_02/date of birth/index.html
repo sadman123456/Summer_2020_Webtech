@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DATE OF BIRTH</title>
+    <script type="text/javascript" src="dob.js"></script>
+</head>
+
+<body>
+
+<center>
+        <form method="post" name="dobForm" action="dob.php" onsubmit="validateDOB()">
+        <tr>
+            <td>
+                <label >DATE OF BIRTH </label> <br><br>
+                <input type="number" name="dd" size="2" min="1" max="31" placeholder="dd">
+                <input type="number" name="mm" size="2" min="1" max="12" placeholder="mm">
+                <input type="number" name="yy" size="4" min="1900" max="2020" placeholder="yy">
+                
+
+                <br><br>
+                
+            </td>
+        </tr>
+        <button name="Submit">Submit</button>
+
+        </form>
+</center>
+</body>
+</html>
