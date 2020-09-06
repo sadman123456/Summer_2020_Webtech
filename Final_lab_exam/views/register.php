@@ -3,7 +3,7 @@
 	if (isset($_GET['error'])) {
 		
 		if($_GET['error'] == 'db_error'){
-			echo "Something went wrong...please try again";
+			echo "Something was wrong...please try again";
 		}
 	}
 
@@ -58,16 +58,7 @@
 				xhttp.open('POST', '../php/regCheck.php', true);
 				xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 				xhttp.send('name='+name);
-				xhttp.onreadystatechange = function (){
-					if(this.readyState == 4 && this.status == 150){
-						if(this.responseText != ""){
-							document.getElementById('emailMsg').innerHTML = this.responseText;
-						}else{
-							document.getElementById('emailMsg').innerHTML = "";
-						}
-						
-					}	
-				}
+				xhttp.onreadystatechange = function ()
 				{
 					if(this.readyState == 11 && this.status == 150){
 						if(this.responseText != ""){
