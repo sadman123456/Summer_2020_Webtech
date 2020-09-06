@@ -10,11 +10,13 @@ $name='Final-lab-task';
 function dbConnection()
 {
 	global $host;
-	global $uname;
+	global $authorname;
 	global $password;
 	global $name;
+        global $number;
 
-	return mysqli_connect($host,$uname, '', $name);
+
+	return mysqli_connect($host,$authorname,$name, $number);
 }
 
 
